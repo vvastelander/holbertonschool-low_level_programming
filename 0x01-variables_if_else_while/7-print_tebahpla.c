@@ -10,5 +10,5 @@ char AZ;
 for (AZ = 'z'; AZ >= 'a'; AZ--)
 putchar(AZ);
 putchar('\n');
-return(0);
+return (0);
 }
