@@ -18,5 +18,5 @@ _putchar('t')
 _putchar('o')
 _putchar('n')
 
-return (write(1, &c, 1));
+return (0);
 }
