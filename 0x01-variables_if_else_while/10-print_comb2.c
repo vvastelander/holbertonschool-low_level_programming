@@ -7,7 +7,7 @@
 int main(void)
 {
 int nu;
-for(nu = 0; nu <= 99; nu++)
+for (nu = 0; nu <= 99; nu++)
 {
 
 putchar((nu / 10) + '0');
