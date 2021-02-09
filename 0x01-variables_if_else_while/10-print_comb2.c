@@ -7,11 +7,13 @@
 int main(void)
 {
 int nu;
-for (nu = 00; nu < 100; nu++)
+for(nu = 0; nu <= 99; nu++)
 {
-if (nu != 100)
+
 putchar((nu / 10) + '0');
 putchar((nu % 10) + '0');
+if (nu != 99)
+
 {
 putchar (',');
 putchar (' ');
