@@ -1,34 +1,25 @@
 #include "holberton.h"
 /**
- *print_diagonal - main function
- *
- *
- *@n: variable input
- *
- *Return: diagonal
- *
+ * print_diagonal - funtion that prints diagonal
+ * @n: parameter
+ * Return: success or fail
  */
 void print_diagonal(int n)
 {
 int i, j;
 
-i = 0;
 if (n > 0)
 {
-while (i < n)
+for (i = 0; i <= n - 1; i++)
 {
-j = 0;
-while (j < i)
+for (j = 0; j <= i - 1; j++)
 {
-_putchar(' ');
-j++;
+_putchar(32);
 }
-i++;
-_putchar('\\');
+_putchar(92);
 _putchar('\n');
 }
 }
 else
-{
 _putchar('\n');
 }
